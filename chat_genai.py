@@ -1,3 +1,4 @@
+# python chat.py --model_path C:\Users\Bai\Documents\Qwen2.5-OV --max_sequence_length 4096 --device CPU
 import argparse
 import openvino_genai
 

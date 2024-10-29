@@ -1,3 +1,5 @@
+# python3 convert.py --model_id C:\Users\Bai\Documents\Qwen2.5-Math-7B --precision int4 --output C:\Users\Bai\Documents\Qwen2.5-ov
+
 from transformers import AutoTokenizer
 from optimum.intel import OVWeightQuantizationConfig
 from optimum.intel.openvino import OVModelForCausalLM
@@ -7,6 +9,7 @@ from pathlib import Path
 import argparse
 
 if __name__ == '__main__':
+    print(f"0923 test")
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument('-h',
                         '--help',
